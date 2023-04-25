@@ -1,9 +1,12 @@
 <script setup lang="ts">
+import MyNavbar from '@/components/UI/MyNavbar.vue';
 </script>
 
 <template>
-  <h1>HELLO</h1>
+  <div class="app">
+    <MyNavbar />
+    <router-view></router-view>
+  </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
